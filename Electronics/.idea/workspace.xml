@@ -45,6 +45,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/templates" />
@@ -92,6 +96,8 @@
       <workItem from="1585570140850" duration="692000" />
       <workItem from="1585584844479" duration="779000" />
       <workItem from="1585586757591" duration="3565000" />
+      <workItem from="1585637415535" duration="12793000" />
+      <workItem from="1585660421950" duration="7687000" />
     </task>
     <servers />
   </component>
@@ -103,9 +109,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="357" y="202" width="641" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1585490414104" />
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585586763428">
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585660464109">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1585586763428" />
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1585660464109" />
   </component>
 </project>

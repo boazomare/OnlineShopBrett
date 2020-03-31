@@ -65,11 +65,22 @@
                 <a class="dropdown-item" href="{% static 'cart.html'%}">Cart</a>
                 <a class="dropdown-item" href="{% static 'checkout.html'%}">Checkout</a>
               </div>
+
+            </li>
+                <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+              	<a class="dropdown-item" href="{% static 'shop.html'%}">All</a>
+              	<a class="dropdown-item" href="{% static 'wishlist.html'%}">Computers</a>
+                <a class="dropdown-item" href="{% static 'product-single.html'%}">Television Sets</a>
+                <a class="dropdown-item" href="{% static 'cart.html'%}">Toners</a>
+                <a class="dropdown-item" href="{% static 'checkout.html'%}">Mass Printing</a>
+              </div>
+
             </li>
 	          <li class="nav-item"><a href="{% static 'about.html'%}" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="{% static 'blog.html'%}" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="{% static 'contact.html'%}" class="nav-link">Contact</a></li>
-	          <li class="nav-item cta cta-colored"><a href="{% static 'cart.html" class="nav-link'%}"><span class="icon-shopping_cart"></span>[0]</a></li>
+	          <li class="nav-item cta cta-colored"><a href="{% static 'cart.html'%}" class="nav-link"><span class="icon-shopping_cart"></span>[0]</a></li>
 
 	        </ul>
 	      </div>
@@ -94,7 +105,7 @@
 	        </div>
 	      </div>
 
-	      <div class="slider-item" style="background-image: url({% static 'images/desktop.jpg'%});">
+	      <div class="slider-item" style="background-image: url({% static 'images/toner2.jpg'%});">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -168,7 +179,7 @@
 					<div class="col-md-8">
 						<div class="row">
 							<div class="col-md-6 order-md-last align-items-stretch d-flex">
-								<div class="category-wrap-2 ftco-animate img align-self-stretch d-flex" style="background-image: url({% static 'images/printers1.jpg'%});">
+								<div class="category-wrap-2 ftco-animate img align-self-stretch d-flex" style="background-image: url({% static 'images/printer4.jpg'%});">
 									<div class="text text-center">
 										<h2>Printers</h2>
 										<p>We stock High quality Printers</p>
@@ -560,30 +571,7 @@
     </section>
 
     <hr>
-
-		<section class="ftco-section ftco-partner">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="{% static 'images/partner-1.png'%}" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="{% static 'images/partner-2.png'%}" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="{% static 'images/partner-3.png'%}" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="{% static 'images/partner-4.png'%}" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    			<div class="col-sm ftco-animate">
-    				<a href="#" class="partner"><img src="{% static 'images/partner-5.png'%}" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-		<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
+<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
       <div class="container py-4">
         <div class="row d-flex justify-content-center py-5">
           <div class="col-md-6">
@@ -613,7 +601,7 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Vegefoods</h2>
+              <h2 class="ftco-heading-2">Brett's Online Shop</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
